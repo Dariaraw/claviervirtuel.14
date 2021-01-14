@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/keyboard-light.css">
+	<link rel="stylesheet" href="css/keyboard-night.css">
+    <title>Virtual Keyboard</title>
+</head>
+	<body>
+	  <main>
+	  	<div class="screen-container">
+	  		<label for="message">Entrez du texte</label>
+            <textarea name="screen" class="screen" ></textarea>
+        </div>
+	  	<div class="keyboard-container">
+		   <div class="keyblock-row">
+			   	<kbd class="key number">1</kbd>
+			    <kbd class="key number">2</kbd>
+			    <kbd class="key number">3</kbd>
+			    <kbd class="key number">4</kbd>
+			    <kbd class="key number">5</kbd>
+			    <kbd class="key number">6</kbd>
+			    <kbd class="key number">7</kbd>
+			    <kbd class="key number">8</kbd>
+			    <kbd class="key number">9</kbd>
+			    <kbd class="key number">0</kbd>
+			    <kbd class="key" class="fas fa-backspace">Retour</kbd>
+		   </div>
+			<div class="keyblock-row">
+			   	<kbd class="key">Tab</kbd>
+			    <kbd class="key">a</kbd>
+			    <kbd class="key">z</kbd>
+			    <kbd class="key">e</kbd>
+			    <kbd class="key">r</kbd>
+			    <kbd class="key">t</kbd>
+			    <kbd class="key">y</kbd>
+			    <kbd class="key">u</kbd>
+			    <kbd class="key">i</kbd>
+			    <kbd class="key">o</kbd>
+			    <kbd class="key">p</kbd>
+			    <kbd class="key" id="enter"><i class="fas fa-arrow-left"></i><kbd> Enter</kbd></kbd>
+
+		   </div>
+		   <div class="keyblock-row">
+			   	<kbd class="key"><i class="fas fa-lock"></i><span> <i class="fas fa-circle" id="led-circle"></i></span></kbd>
+			    <kbd class="key">q</kbd>
+			    <kbd class="key">s</kbd>
+			    <kbd class="key">d</kbd>
+			    <kbd class="key">f</kbd>
+			    <kbd class="key">g</kbd>
+			    <kbd class="key">h</kbd>
+			    <kbd class="key">j</kbd>
+			    <kbd class="key">k</kbd>
+			    <kbd class="key">l</kbd>
+			    <kbd class="key">m</kbd>
+		   </div>
+		   <div class="keyblock-row">
+			   	<kbd class="key">Shift</kbd>
+			    <kbd class="key">w</kbd>
+			    <kbd class="key">x</kbd>
+			    <kbd class="key">c</kbd>
+			    <kbd class="key">v</kbd>
+			    <kbd class="key">b</kbd>
+			    <kbd class="key">n</kbd>
+			    <kbd class="key symbols">?.,</kbd>
+			    <kbd class="key smileys" src="img/smiley.png" alt="smileys"></kbd>
+			    <kbd class="keyboard-key large-key switch-mode">
+	                <label class="switch">
+	                  <input type="checkbox" id="btnNightMode" name="nightModeActive">
+	                  <span class="slider round"></span>
+	                </label>
+	            </kbd>
+		   </div>
+		   <div class="keyblock-space">
+			   	<kbd><i class="fas fa-keyboard"></i><span class="sr-only">Space</span></kbd>		   
+		   </div>
+	   </div>
+	  </main>
+	</body>
+</html>

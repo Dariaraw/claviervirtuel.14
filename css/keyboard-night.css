@@ -1,0 +1,36 @@
+* {
+  background-color: black;
+}
+.textarea{
+  border-color: #6bd5cb;
+}
+
+.key {
+  background-color: black;
+  color:white;
+  border-width:2px;
+  border-style:solid;
+  border-color:#6bd5cb;
+}
+.key:hover {
+  background-color: #6bd5cb;
+}
+.switch {
+  background-color: black;
+  color:white;
+  border-width:2px;
+  border-style:solid;
+  border-color:#6bd5cb;
+}
+.switch:hover {
+  background-color: #6bd5cb;
+}
+
+.keyblock-space {
+  color:white;
+  border-width:2px;
+  border-style:solid;
+  border-color: #6bd5cb;
+}
+.keyblock-space:hover {
+  background-color: #6bd5cb;
